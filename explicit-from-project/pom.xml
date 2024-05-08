@@ -22,6 +22,18 @@
             <groupId>io.fabric8.crd-generator.maven</groupId>
             <artifactId>custom-resources</artifactId>
         </dependency>
+
+        <!-- Testing -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -36,7 +48,7 @@
                         </goals>
                         <configuration>
                             <customResourceClasses>
-                                <customResourceClass>io.fabri8.crd.maven.example.explicit.v2.Multiple
+                                <customResourceClass>io.fabric8.crd.maven.example.explicit.v2.Multiple
                                 </customResourceClass>
                             </customResourceClasses>
                         </configuration>
