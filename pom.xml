@@ -17,10 +17,6 @@
         <module>scan-dependency</module>
         <module>scan-dependency-package-inclusion</module>
         <module>scan-dependency-package-exclusion</module>
-        <module>scan-dependency-group-inclusion</module>
-        <module>scan-dependency-group-exclusion</module>
-        <module>scan-dependency-version-inclusion</module>
-        <module>scan-dependency-version-exclusion</module>
         <module>indexed-dependency</module>
     </modules>
 
