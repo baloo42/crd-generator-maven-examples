@@ -48,8 +48,7 @@
                         </goals>
                         <configuration>
                             <customResourceClasses>
-                                <customResourceClass>io.fabric8.crd.maven.example.explicit.v2.Multiple
-                                </customResourceClass>
+                                <customResourceClass>io.fabric8.crd.maven.example.explicit.v2.Multiple</customResourceClass>
                             </customResourceClasses>
                         </configuration>
                     </execution>

@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class CRDGenerationTest {
@@ -17,6 +18,7 @@ class CRDGenerationTest {
         "/META-INF/fabric8/multiples.sample.fabric8.io-v1.yml")) {
       var crd = serialization.unmarshal(in, CustomResourceDefinition.class);
       assertNotNull(crd);
+      assertEquals(1, crd.getSpec().getVersions().size());
     }
   }
 
