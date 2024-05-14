@@ -47,12 +47,12 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <dependenciesToIndex>
+                            <dependenciesToScan>
                                 <dependency>
                                     <groupId>io.fabric8.crd-generator.maven</groupId>
                                     <artifactId>custom-resources-with-index</artifactId>
                                 </dependency>
-                            </dependenciesToIndex>
+                            </dependenciesToScan>
                         </configuration>
                     </execution>
                 </executions>

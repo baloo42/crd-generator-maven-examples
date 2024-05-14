@@ -52,12 +52,12 @@
                                     <package>io.fabric8.crd.maven.example.api.v1</package>
                                 </packages>
                             </inclusions>
-                            <dependenciesToIndex>
+                            <dependenciesToScan>
                                 <dependency>
                                     <groupId>io.fabric8.crd-generator.maven</groupId>
                                     <artifactId>custom-resources</artifactId>
                                 </dependency>
-                            </dependenciesToIndex>
+                            </dependenciesToScan>
                         </configuration>
                     </execution>
                 </executions>
