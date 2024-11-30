@@ -6,5 +6,5 @@ import io.fabric8.kubernetes.model.annotation.Version;
 
 @Group("sample.fabric8.io")
 @Version("v2")
-public class Multiple extends CustomResource<MultipleSpec, Void> {
+class Multiple extends CustomResource<MultipleSpec, Void> {
 }
