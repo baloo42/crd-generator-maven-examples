@@ -14,6 +14,7 @@
         <module>explicit-from-project</module>
         <module>explicit-from-dependency</module>
         <module>scan-project</module>
+        <module>scan-test-classes-only</module>
         <module>scan-dependency</module>
         <module>scan-dependency-package-inclusion</module>
         <module>scan-dependency-package-exclusion</module>
