@@ -35,7 +35,7 @@
         <maven.jandex.version>3.2.3</maven.jandex.version>
 
         <!-- Dependencies -->
-        <fabric8-client.version>7.0.1</fabric8-client.version>
+        <fabric8-client.version>7.1.0</fabric8-client.version>
 
         <junit.version>5.11.4</junit.version>
     </properties>
